@@ -19,7 +19,7 @@ const Nav = () => {
         <hr className='my-2 w-[80%]' />
         <h1 className='text-2xl mb-3 w-[80%] '>Catagory Filter</h1>
         <div className='w-[80%] '>
-         {distinctCategory.map((c,i)=> <Link to={`/?category=${c}`} key={i} className='flex items-center'>
+         {distinctCategory.map((c,i)=> <Link to={`/?category=${c}`} key={i} className='flex items-center mb-2 border-b-2'>
             <span
             style={{background : color()}}
             className='w-[12px] h-[12px] inline-block mr-2 rounded-full'></span>
